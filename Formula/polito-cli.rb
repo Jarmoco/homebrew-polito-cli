@@ -5,10 +5,10 @@ class PolitoCli < Formula
 
   if OS.mac?
     url "https://github.com/Jarmoco/polito-cli/releases/download/v0.1.0/polito_0.1.0_macos_aarch64.tar.gz"
-    sha256 "0000000000000000000000000000000000000000000000000000000000000000"
+    sha256 "8385762e5d6e1ffc81a3a663dda6c894e4fb8ab32eb8cbc6eaa10185680887f3"
   elsif OS.linux?
     url "https://github.com/Jarmoco/polito-cli/releases/download/v0.1.0/polito_0.1.0_linux_x86_64.tar.gz"
-    sha256 "0000000000000000000000000000000000000000000000000000000000000000"
+    sha256 "d332a43cde0c2d04204731dbdb330c4c159ad1f6e4e82ec9783b1a6346119f8e"
   end
 
   def install
